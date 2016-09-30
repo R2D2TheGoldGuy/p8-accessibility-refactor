@@ -8,7 +8,7 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  color: #3A6355;
+  color: #e5e5e5;
   background: #2d2b30;
 }
 
@@ -16,7 +16,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: #fff;
 }
 
 a:hover {
@@ -59,12 +59,12 @@ a:hover {
 }
 
 .nav a:hover {
-  color: white
+  color: #79C7AC;
 }
 
 header {
   text-align: center;
-  background: url('../img/concert02_with_text.jpg') no-repeat top center ;
+  background: url('../img/concert02_no_text.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -72,9 +72,12 @@ header {
 }
 
 .tag {
-  color: black;
+  color: #2d2a30;
   padding: 10px;
-  letter-spacing: 5px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-weight: 300;
 }
 
 .name{
@@ -85,23 +88,24 @@ header .name{
   font-size: 3em;
 }
 .tagline {
-  font-weight: 600;
+  font-weight: 300;
   padding: 20px;
-  text-transform: uppercase;
-  color: #781125
+  font-family: 'Montserrat', sans-serif;
+  color: #781125;
+  font-size: 1.5em;
+  margin-top: 0;
 }
 
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   text-align: left;
-  border-top: 4px solid #781125;
+  border-top: 4px solid #f6d2b0;
   clear: both;
 }
 .card:hover {
   border-color: #96731A;
 }
-
 
 .photo{
   display: block;
@@ -120,8 +124,9 @@ header .name{
 .heading{
   font-size: 2em;
   text-transform: uppercase;
-  color: #781125;
+  color: #f6d2b0;
   margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 /* Footer styles */
@@ -188,6 +193,19 @@ a.social:hover {
 
   header {
     min-height: 470px;
+  }
+
+  .tag {
+      padding: 35px;
+  }
+
+  header .name{
+    font-size: 4em;
+  }
+
+  .tagline {
+    padding: 0;
+    font-size: 2em;
   }
 
   .nav {
